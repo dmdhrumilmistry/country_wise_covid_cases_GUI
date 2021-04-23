@@ -1,5 +1,4 @@
 # Country Wise Covid Cases Gui 
-- Weekend Project
 
 - Main Window
 <img src="https://github.com/dmdhrumilmistry/country_wise_covid_cases_GUI/blob/main/images/%231_open_gui.png">
