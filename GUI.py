@@ -33,7 +33,10 @@ def get_data():
 # -- GUI ---
 root = Tk()
 root.title("World Covid Cases")
-root.geometry("720x480")
+root.geometry("480x234")
+root.maxsize(480,234)
+root.minsize(480,234)
+
 root.iconbitmap('virus.ico')
 
 # Constant Lables
