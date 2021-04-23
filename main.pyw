@@ -47,8 +47,11 @@ root.title("World Covid Cases")
 root.geometry("480x344")
 root.maxsize(480,344)
 root.minsize(480,344)
+try:
+    root.iconbitmap('virus.ico')
+except Exception:
+    print('Icon is missing')
 
-root.iconbitmap('virus.ico')
 
 # Constant Lables
 Label(root, text='COVID CASES', font='Comicsansms 16 bold',pady=5).grid(row=0, pady=5)
